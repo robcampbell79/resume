@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+
+.wrapper {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    display: grid;
+    grid-template-columns: 300px 500px 40px;
+    height: 100vh;
+    gap: 5px;
+}
+
+.clOne {
+    grid-column: 1;
+    background-color: pink;
+}
+
+.clTwo {
+    grid-column: 2;
+}
+
+#myInfo {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: aqua;
+}
+
+#skills {
+    margin-left: 20px;
+}
+
+#myname {
+    /* text-align: center; */
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+#whatIdo {
+    /* text-align: center; */
+    font-size: large;
+    margin-left: 20px;
+}
+
+#emp {
+    font-size: larger;
+}
