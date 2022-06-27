@@ -29,7 +29,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 6;
     /* background-color: #00A36C; */
-    background-color: #008080;
+    background-color: #660033;
     color: white;
 }
 
@@ -74,4 +74,16 @@ body {
 
 #skillset {
     margin-left: 10px;;
+}
+
+#dev {
+    color: #660033;
+}
+
+#cgi {
+    color: #660033;
+}
+
+#army {
+    color: #660033;
 }
